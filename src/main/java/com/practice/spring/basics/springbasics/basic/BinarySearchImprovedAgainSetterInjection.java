@@ -1,15 +1,21 @@
 package com.practice.spring.basics.springbasics.basic;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class BinarySearchImprovedAgainSetterInjection {
 
+	private Logger logger = LoggerFactory.getLogger(BinarySearchImprovedAgainSetterInjection.class);
 	@Autowired
 	@Qualifier("quick")
 	SortAlgo sortAlgo; // instead of sortAlgo we can use the implmentation class name "bubbleSortAlgo" ahere so as to specify which 
@@ -23,8 +29,18 @@ public class BinarySearchImprovedAgainSetterInjection {
 	
 	public int binarySearch(int[] numbers,int numberToSearch) {
 		int[] sortedNumbers = sortAlgo.sort(numbers);
-		System.out.println(sortAlgo);
+		logger.info("{}",sortAlgo);
 		return 3;
+	}
+
+	@PostConstruct
+	public void postConstruct(){
+		logger.info("postConstruct");
+	}
+
+	@PreDestroy
+	public void PreDestroy(){
+		logger.info("PreDestroy");
 	}
 	
 }
