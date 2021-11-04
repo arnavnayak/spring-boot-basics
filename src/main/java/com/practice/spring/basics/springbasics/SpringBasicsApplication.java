@@ -1,13 +1,14 @@
 package com.practice.spring.basics.springbasics;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
-
 import com.practice.spring.basics.springbasics.basic.BinarySearchImprovedAgain;
 import com.practice.spring.basics.springbasics.basic.BinarySearchImprovedAgainSetterInjection;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
-@SpringBootApplication
+@Configuration
+@ComponentScan
 public class SpringBasicsApplication {
 
 	//What are the beans ?
@@ -16,9 +17,14 @@ public class SpringBasicsApplication {
 	//we need to answer these for the spring.
 	
 	public static void main(String[] args) {
-
-
-		ConfigurableApplicationContext springApplicationContext = SpringApplication.run(SpringBasicsApplication.class, args);
+		
+//		BinarySearchImpl bSearch =  new BinarySearchImpl(); //old way
+//		int result = bSearch.binarySearch(new int[] {1,2,3},2);
+		
+//		BinarySearchImproved bSearch =new BinarySearchImproved(new QuickSortAlgo());// new way with loosely coupled improved way
+		// still the above can be made to instantiate bean wihtout even doing it as above so as to make it more loosely copupled
+		
+		ConfigurableApplicationContext springApplicationContext = new AnnotationConfigApplicationContext(SpringBasicsApplication.class);
 		
 		BinarySearchImprovedAgain bSearch =  springApplicationContext.getBean(BinarySearchImprovedAgain.class);
 		
