@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b509ac-e278-4a76-a837-e382901e38d2" name="Default Changelist" comment="" />
+    <list default="true" id="c2b509ac-e278-4a76-a837-e382901e38d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-basics.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,12 +42,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="20DytKpcDzoyhh408v1xPt0TgDJ" />
   <component name="ProjectLevelVcsManager">
@@ -58,18 +66,18 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\intelli j workspace\spring-basics\src\main\java\com\practice\spring\basics\springbasics\componentscan" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.practice.spring.basics.springbasics.main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.practice.spring.basics.springbasics.basic" />
       <recent name="com.practice.spring.basics.springbasics" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\intelli j workspace\spring-basics\src\main\java\com\practice\spring\basics\springbasics\componentscan" />
+      <recent name="com.practice.spring.basics.springbasics.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringBasicsApplication">
+  <component name="RunManager" selected="Application.SpringBootBasicsRestApplication">
     <configuration name="SpringBasicsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.spring.basics.springbasics.SpringBasicsApplication" />
       <module name="spring-basics" />
@@ -122,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBasicsScopeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.spring.basics.springbasics.SpringBasicsScopeApplication" />
+    <configuration name="SpringBootBasicsRestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.spring.basics.springbasics.SpringBootBasicsRestApplication" />
       <module name="spring-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.spring.basics.springbasics.main.*" />
+          <option name="PATTERN" value="com.practice.spring.basics.springbasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,14 +145,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringBootBasicsRestApplication" />
         <item itemvalue="Application.SpringBasicsApplication" />
         <item itemvalue="Application.SpringBasicsApplicationWithoutSpringBoot" />
         <item itemvalue="Application.SpringBasicsCdiApplication" />
         <item itemvalue="Application.SpringBasicsComponentScanApplication" />
-        <item itemvalue="Application.SpringBasicsScopeApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -168,39 +177,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1635999437082">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="574" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1635999437081" />
-    <state x="493" y="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1635910751231">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="493" y="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1635910751231" />
-    <state x="514" y="131" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1635999539305">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="514" y="131" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.816@0.0.1536.816" timestamp="1635999539305" />
-    <state width="746" height="323" key="GridCell.Tab.0.bottom" timestamp="1636011722341">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="746" height="323" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636011722341" />
-    <state width="746" height="323" key="GridCell.Tab.0.center" timestamp="1636011722341">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="746" height="323" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636011722341" />
-    <state width="746" height="323" key="GridCell.Tab.0.left" timestamp="1636011722341">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="746" height="323" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636011722341" />
-    <state width="746" height="323" key="GridCell.Tab.0.right" timestamp="1636011722341">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="746" height="323" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636011722341" />
-    <state x="277" y="53" key="SettingsEditor" timestamp="1635998704656">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1635998704656" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
